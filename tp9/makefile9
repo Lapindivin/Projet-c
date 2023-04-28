@@ -1,0 +1,25 @@
+CC=gcc
+CFLAGS=-std=c11 -Wpedantic -Wall -Wextra
+LDLIBS=-lm
+RM=rm -f
+OBJ=tp9exo1.o matrice.o image.o ti.o
+EXE=tp9exo1
+# Pour produire le fichier exécutable
+$(EXE):$(OBJ)
+	$(CC) $(CFLAGS) $(OBJ) -o $(EXE) $(LDLIBS)
+# Pour produire les fichiers objets
+tp9exo1.o:tp9exo1.c image.h matrice.h ti.h
+	$(CC) $(CFLAGS) -c tp9exo1.c
+
+ti.o:ti.c ti.h image.h matrice.h
+	$(CC) $(CFLAGS) -c ti.c
+
+image.o:image.c image.h matrice.h
+	$(CC) $(CFLAGS) -c image.c
+
+matrice.o:matrice.c matrice.h
+	$(CC) $(CFLAGS) -c matrice.c
+
+# Pour effacer les objets et les exécutables
+clean:
+	$(RM) $(OBJ) $(EXE)
