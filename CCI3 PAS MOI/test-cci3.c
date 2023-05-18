@@ -7,13 +7,13 @@
 
 int main(void)
 {
-/*  printf("TEST DE L'EXERCICE 1\n");
+  printf("TEST DE L'EXERCICE 1\n");
   char ch1[]="Les sanglots longs des violons de l'automne";
   char ch2[]="bercent  mon";
   char ch3[]=" ";
-  printf("\"%s\" : %d attendu, %d obtenu\n",ch1,37,NbNonEsp(ch1));
-  printf("\"%s\" : %d attendu, %d obtenu\n",ch2,10,NbNonEsp(ch2));
-  printf("\"%s\" : %d attendu, %d obtenu\n",ch3,0,NbNonEsp(ch3));*/
+  printf("\"%s\" : %d attendu, %d obtenu\n",ch1,37);
+  printf("\"%s\" : %d attendu, %d obtenu\n",ch2,10);
+  printf("\"%s\" : %d attendu, %d obtenu\n",ch3,0);
 
   printf("\nTEST DE L'EXERCICE 2\n");
   double Temperatures[4]={9.0,8.0,16.0,11.0};

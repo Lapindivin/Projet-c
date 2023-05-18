@@ -11,26 +11,26 @@
  *    - nombre de caractères différents du caractère espace présents dans la chaîne
  *      de caractères
  */
-/*int NbNonEsp(const char *ch)
-{
-  int nbc=0;
-  int nbespace=0;
-  char c;
-  c=ch[nbc+nbespace];
-  while (nbc+nbespace!=37);
-  {
-    if (c!=" ")
-    {
-      nbc++;
-    }
-    else
-    {
-      nbespace++;
-    }
-    c=ch[nbc+nbespace];
-  }
-  return nbc;
-}*/
+// int NbNonEsp(const char *ch)
+// {
+//   int nbc=0;
+//   int nbespace=0;
+//   char c;
+//   c=ch[nbc+nbespace];
+//   while (nbc+nbespace!=37);
+//   {
+//     if (c!=" ")
+//     {
+//       nbc++;
+//     }
+//     else
+//     {
+//       nbespace++;
+//     }
+//     c=ch[nbc+nbespace];
+//   }
+//   return nbc;
+// }
 
 // ================ EXERCICE 2 ================ //
 /* Calcul de statistiques sur un tableau de températures :

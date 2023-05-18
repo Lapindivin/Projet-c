@@ -11,7 +11,7 @@
  *    - nombre de caractères différents du caractère espace présents dans la chaîne 
  *      de caractères
  */
-extern int NbNonEsp(const char *ch);
+// extern int NbNonEsp(const char *ch);
 
 // ================ EXERCICE 2 ================ //
 /* Calcul de statistiques sur un tableau de températures : 
